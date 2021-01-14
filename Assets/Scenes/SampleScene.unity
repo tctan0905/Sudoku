@@ -2149,95 +2149,91 @@ MonoBehaviour:
   cols: 9
   square_scale: 1
   square_offset: 0
-  start_pos: {x: 0, y: 0}
-  grid_square: {fileID: 0}
-  _squares: {fileID: 3774180738083756844, guid: 699e31a2c0e0103419def2f09f896004,
-    type: 3}
+  _squares: {fileID: 0}
   text_number: {fileID: 1491313031}
-  number_text: {fileID: 0}
   grid_squares: []
   arrBt:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1997220794}
+  - {fileID: 1364229603}
+  - {fileID: 549859165}
+  - {fileID: 1115725583}
+  - {fileID: 1602763903}
+  - {fileID: 367018864}
+  - {fileID: 1448107827}
+  - {fileID: 1800632655}
+  - {fileID: 2140821940}
+  - {fileID: 497686706}
+  - {fileID: 86986626}
+  - {fileID: 1458327750}
+  - {fileID: 1635318280}
+  - {fileID: 1323550881}
+  - {fileID: 1157751795}
+  - {fileID: 1008018093}
+  - {fileID: 1580194858}
+  - {fileID: 659593200}
+  - {fileID: 523749041}
+  - {fileID: 404127393}
+  - {fileID: 1957007316}
+  - {fileID: 1330082909}
+  - {fileID: 1268196807}
+  - {fileID: 1458448794}
+  - {fileID: 219777242}
+  - {fileID: 1860799220}
+  - {fileID: 288785930}
+  - {fileID: 2019054261}
+  - {fileID: 91159492}
+  - {fileID: 2146366778}
+  - {fileID: 460231467}
+  - {fileID: 987028054}
+  - {fileID: 294280739}
+  - {fileID: 1329362836}
+  - {fileID: 1774367012}
+  - {fileID: 905227368}
+  - {fileID: 605497330}
+  - {fileID: 958547709}
+  - {fileID: 1857224948}
+  - {fileID: 1288671656}
+  - {fileID: 2020118960}
+  - {fileID: 1118734685}
+  - {fileID: 773622297}
+  - {fileID: 2033975162}
+  - {fileID: 1190139219}
+  - {fileID: 1709695011}
+  - {fileID: 106891285}
+  - {fileID: 1354109115}
+  - {fileID: 1979441647}
+  - {fileID: 924150896}
+  - {fileID: 598103658}
+  - {fileID: 664494848}
+  - {fileID: 886136238}
+  - {fileID: 186369290}
+  - {fileID: 1267746165}
+  - {fileID: 969364703}
+  - {fileID: 1119029394}
+  - {fileID: 46124411}
+  - {fileID: 36195}
+  - {fileID: 1040292377}
+  - {fileID: 1745871704}
+  - {fileID: 2049087002}
+  - {fileID: 47661794}
+  - {fileID: 1953020583}
+  - {fileID: 416969498}
+  - {fileID: 1205433948}
+  - {fileID: 1207219730}
+  - {fileID: 844943544}
+  - {fileID: 1123430428}
+  - {fileID: 2077519952}
+  - {fileID: 2100523612}
+  - {fileID: 1747513544}
+  - {fileID: 171628140}
+  - {fileID: 35943781}
+  - {fileID: 1469069579}
+  - {fileID: 1695319618}
+  - {fileID: 1729451126}
+  - {fileID: 1574956616}
+  - {fileID: 1404409196}
+  - {fileID: 1587028035}
+  - {fileID: 1860730345}
 --- !u!224 &257325586
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17765,12 +17761,8 @@ MonoBehaviour:
   cols: 9
   square_scale: 0.7
   square_offset: 1.5
-  start_pos: {x: 0, y: 422}
-  grid_square: {fileID: 5786523328683488784, guid: a5774cc61fd9ffd4b9e039c1fbfee7b5,
-    type: 3}
   _squares: {fileID: 0}
   text_number: {fileID: 0}
-  number_text: {fileID: 0}
   grid_squares: []
   arrBt: []
 --- !u!1 &2019054261

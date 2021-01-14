@@ -8,12 +8,12 @@ public class Grid : MonoBehaviour
     
     public float square_scale = 1.0f;
     public float square_offset = 0.0f;
-    public Vector2 start_pos = new Vector2(0, 0);
-    public GameObject grid_square;
+    //public Vector2 start_pos = new Vector2(0, 0);
+    private GameObject grid_square;
 
     public GameObject _squares;
     public GameObject text_number;
-    public Text number_text;
+    //public Text number_text;
     int number = 1;
     public List<GameObject> grid_squares = new List<GameObject>();
     public GameObject[] arrBt;
@@ -25,7 +25,7 @@ public class Grid : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-      
+         
         //CreateGrid();
         Setup();
         Setup2();
@@ -43,18 +43,22 @@ public class Grid : MonoBehaviour
         //{
 
         //}
-        GameObject button = (GameObject)Instantiate(_squares, new Vector3(0, 0, 0), Quaternion.Euler(0, 0, 0));
-        button.AddComponent<RectTransform>();
-        button.AddComponent<Button>();
+        //GameObject button = (GameObject)Instantiate(_squares, new Vector3(0, 0, 0), Quaternion.Euler(0, 0, 0));
+        //button.AddComponent<RectTransform>();
+        //button.AddComponent<Button>();
     }
     private void Setup2()
     {
-        //for (int i = 0; i < 81; i++)
-        //{
-        //    arrBt[i].GetComponentInChildren<Text>().text = number.ToString();
-        //}
-        text_number.GetComponent<Text>().text = number.ToString();
-        number_text.text = number.ToString();
+        for (int i = 0; i < 81; i++)
+        {
+            if(arrBt[i].GetComponentInChildren<Text>().text == "0")
+            {
+                arrBt[i].GetComponentInChildren<Text>().text = number.ToString();
+            }
+            
+        }
+        //text_number.GetComponent<Text>().text = number.ToString();
+        //number_text.text = number.ToString();
 
     }
 
@@ -96,19 +100,25 @@ public class Grid : MonoBehaviour
         //    square.GetComponent<RectTransform>().anchoredPosition = new Vector2(start_pos.x + pos_x_offset, start_pos.y - pos_y_offset);
         //    col_number++;
         //}
+
+
+
     }
 
     public void SudokuSolver(int row,int col)
     {
         if(row < 9 && col <9 )
         {
+            for(int z = 1;z <=9;z++)
+            {
 
+            }
         }
         else if(row < 9 && col >=9)
         {
-
+            SudokuSolver(row + 1, 0);
         }
-
+        
     }
     public void StartSolve()
     {
